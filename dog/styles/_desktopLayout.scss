@@ -1,0 +1,23 @@
+@media (min-width: 900px) {
+  main {
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+    margin-top: 2rem;
+    
+    .container {
+        grid-column: 2;
+    }
+    #dogContainer {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    img {
+      max-width: 550px;
+      width: 100%;
+      padding: 1rem;
+    }
+  }
+}

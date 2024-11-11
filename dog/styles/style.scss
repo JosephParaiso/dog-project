@@ -1,0 +1,28 @@
+@import "./grid";
+@import "./randomButton";
+@import "./config";
+@import "./mobileLayout";
+@import "./desktopLayout";
+
+body {
+    background-color: var(--colorBackground);
+}
+nav ul li {
+    border: 1px solid #000;
+    background-color: var(--colorPrimary);
+}
+nav ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+}
+a, a:visited {
+    color:inherit;
+    text-decoration: none;
+}
+#dogContainer img {
+    width: 100%;
+}

@@ -1,0 +1,40 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        display: flex;
+        justify-content: center;
+    }
+}
+header {
+    grid-column: span 2;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+    display: flex;
+    
+
+}
+
+nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e0e4ee;
+    width: 100%;
+}
